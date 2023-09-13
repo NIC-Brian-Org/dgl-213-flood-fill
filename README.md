@@ -15,8 +15,11 @@ In general, the following are the steps you should take for each module tutorial
 1. If you haven't already done so, accept the module assignment (link available 
     in Brightspace). 
     1. Accepting the assignment will create a new **private** repository. **Only you and I** will be able to access this repository.
-    2. Make sure you immediately clone a copy of the newly created repository to your computer by using the large green Clone button in the repository.
+    2. Make sure you immediately clone a copy of the newly created repository to your computer by using the large green Clone button in the repository. Alternatively,
+    you may choose to use GitHub Codespaces to work on the project through the
+    browser;
     3. Find your locally cloned code on your computer and open with Visual Studio Code.
+    Alternatively, use GitHub Codespaces.
 2. Follow along with the tutorial below. Make changes in your local code as you read along. *Be experiemntal!* Doing so will help to give you a better grasp of what the code is doing, and will better prepare you for completing the project. 
 
 ## Code walkthrough
@@ -26,7 +29,7 @@ The other **really important** thing that I'll continue to harp on all semester 
 
 Let's get started with the code walkthrough...
 
-### "use strict"
+### "use strict";
 This is a critical feature of JavaScript since ES5 which helps to reduce errors in JavaScript code by requesting that the browser (i.e. the JavaScript interpreter) to treat JavaScript semantics more strictly. We will apply "use strict" to most projects we develop in this class in order to ensure that we have an easier time catching bugs and keeping code modern. You can read more about [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode "MDN - Strict Mode") on the MDN.
 
 >**Exercise**
